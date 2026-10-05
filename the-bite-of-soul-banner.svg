@@ -1,0 +1,89 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="900" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1A0C0B"/>
+      <stop offset="0.45" stop-color="#2E1413"/>
+      <stop offset="1" stop-color="#120909"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(850 240) rotate(90) scale(550 700)">
+      <stop stop-color="#C97F39" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#C97F39" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#F5D38A"/>
+      <stop offset="0.5" stop-color="#D9A75A"/>
+      <stop offset="1" stop-color="#A7652D"/>
+    </linearGradient>
+    <linearGradient id="maroon" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#9F2E2A"/>
+      <stop offset="1" stop-color="#3B1011"/>
+    </linearGradient>
+    <linearGradient id="plate" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#F9F4EE"/>
+      <stop offset="1" stop-color="#E9DED2"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="25" stdDeviation="28" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <ellipse cx="860" cy="270" rx="640" ry="420" fill="url(#glow)"/>
+
+  <g opacity="0.24">
+    <circle cx="255" cy="140" r="5" fill="#F5D38A"/>
+    <circle cx="325" cy="90" r="6" fill="#F5D38A"/>
+    <circle cx="412" cy="150" r="4" fill="#F5D38A"/>
+    <circle cx="1280" cy="180" r="6" fill="#F5D38A"/>
+    <circle cx="1360" cy="120" r="5" fill="#F5D38A"/>
+    <circle cx="1320" cy="250" r="4" fill="#F5D38A"/>
+  </g>
+
+  <g filter="url(#shadow)">
+    <circle cx="820" cy="470" r="250" fill="url(#plate)"/>
+    <circle cx="820" cy="470" r="185" fill="#C78E58" fill-opacity="0.18"/>
+    <circle cx="820" cy="470" r="150" fill="#F4EEE7"/>
+    <circle cx="820" cy="470" r="118" fill="#D78E52" fill-opacity="0.18"/>
+  </g>
+
+  <g opacity="0.9">
+    <path d="M690 430C720 395 760 380 820 380C885 380 931 398 962 434" stroke="url(#gold)" stroke-width="11" stroke-linecap="round"/>
+    <path d="M700 515C745 565 777 585 820 585C863 585 900 565 942 515" stroke="url(#gold)" stroke-width="11" stroke-linecap="round"/>
+    <path d="M773 352C778 328 794 309 820 299C847 309 862 327 868 352" stroke="url(#gold)" stroke-width="10" stroke-linecap="round"/>
+  </g>
+
+  <g opacity="0.95">
+    <path d="M620 610C640 560 670 515 710 480" stroke="#F5D38A" stroke-width="8" stroke-linecap="round"/>
+    <path d="M1018 609C998 559 969 514 930 480" stroke="#F5D38A" stroke-width="8" stroke-linecap="round"/>
+    <path d="M612 596C626 609 640 622 660 636" stroke="#E7B870" stroke-width="7" stroke-linecap="round"/>
+    <path d="M1028 597C1014 610 1000 622 980 636" stroke="#E7B870" stroke-width="7" stroke-linecap="round"/>
+  </g>
+
+  <g>
+    <path d="M1280 310C1280 280 1304 256 1334 256H1446C1477 256 1502 280 1502 310V445H1280V310Z" fill="#1E0C0B" fill-opacity="0.75"/>
+    <path d="M1328 265C1338 243 1362 228 1388 228C1414 228 1438 243 1448 265" stroke="url(#gold)" stroke-width="6" stroke-linecap="round"/>
+    <path d="M1311 452C1366 424 1408 415 1469 413" stroke="#EAB870" stroke-width="5" stroke-linecap="round" opacity="0.8"/>
+  </g>
+
+  <g>
+    <path d="M410 302C440 270 472 252 506 248C540 245 573 259 595 286C602 295 606 305 607 316C639 403 614 530 517 590C471 620 430 635 387 635H346C336 635 328 627 328 617V514C328 478 355 450 389 450C426 450 455 420 455 384C455 357 438 330 410 302Z" fill="url(#maroon)"/>
+    <path d="M414 322C437 292 466 273 497 272C520 271 546 281 565 301C574 312 579 324 579 337C609 420 591 520 520 567C486 590 454 601 423 603C406 604 390 593 385 577C376 546 390 496 385 470C379 437 356 404 344 382C339 374 336 364 336 354C336 344 347 332 353 327C369 315 390 311 414 322Z" fill="#2B0D0D" fill-opacity="0.48"/>
+    <path d="M365 612C391 656 428 688 471 705C521 725 571 726 622 705" stroke="#F0C37B" stroke-width="7" stroke-linecap="round" opacity="0.75"/>
+  </g>
+
+  <g>
+    <path d="M1308 632C1328 613 1360 603 1395 606C1426 609 1453 620 1475 640" stroke="#F0C37B" stroke-width="7" stroke-linecap="round" opacity="0.8"/>
+    <path d="M1308 678C1331 665 1367 658 1404 661C1438 663 1472 674 1495 693" stroke="#F0C37B" stroke-width="7" stroke-linecap="round" opacity="0.8"/>
+  </g>
+
+  <g>
+    <text x="170" y="250" fill="#F8DEAD" font-family="Georgia, 'Times New Roman', serif" font-size="72" font-weight="700" letter-spacing="2">THE BITE OF</text>
+    <text x="170" y="320" fill="#D98945" font-family="Georgia, 'Times New Roman', serif" font-size="110" font-weight="700" letter-spacing="3">SOUL</text>
+    <rect x="170" y="348" width="510" height="4" fill="url(#gold)" opacity="0.8"/>
+    <text x="170" y="430" fill="#F0E7DD" font-family="Arial, sans-serif" font-size="28" letter-spacing="7">RESTAURANT • CURATED FLAVORS • LUXURY EATS</text>
+    <g transform="translate(170 480)">
+      <rect width="250" height="54" rx="27" fill="url(#gold)"/>
+      <text x="125" y="36" text-anchor="middle" fill="#1A0C0B" font-family="Arial, sans-serif" font-size="24" font-weight="700">EXPLORE MENU</text>
+    </g>
+  </g>
+</svg>
